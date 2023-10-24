@@ -1,0 +1,22 @@
+.card {
+  background-color: var(--primary-5);
+  padding: 0 var(--global-padding);
+  border-radius: 7px;
+}
+
+.body {
+  max-height: 100vh;
+  overflow: hidden;
+  transition: max-height 0.3s linear;
+}
+
+.body_hidden {
+  max-height: 0;
+}
+
+.footer {
+  height: var(--footer-height);
+  border-top: var(--primary-5) 1px ;
+  display: flex;
+  align-items: center;
+}
