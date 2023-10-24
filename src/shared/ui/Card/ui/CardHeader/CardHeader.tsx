@@ -21,7 +21,7 @@ export const CardHeader: FC<HeaderProps> = (props) => {
       <Button className={styles.collapse_btn} onClick={onToggleButton}>
         <DownArrow
           className={classNames(styles.btn_icon, {}, [
-            isOpen ? styles.default_position : styles.rotated,
+            isOpen ? styles.rotated : styles.default_position,
           ])}
           width="20px"
           height="20px"
